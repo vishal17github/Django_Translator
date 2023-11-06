@@ -1,131 +1,79 @@
-# Translator App
-Translator App is a web application built using Django framework that allows users to translate text from one language to another. It utilizes Azure services including Azure Virtual Network, Azure Web App, Key Vault, and Blob Storage for various functionalities.
+# Language-Translator
 
-# Features
-Translate text from one language to another.
-User-friendly interface with Bootstrap and custom CSS styles.
-Secure storage of sensitive information using Azure Key Vault.
-Storage of translated text and other data in Azure Blob Storage.
-Seamless integration with Azure services for a reliable and scalable experience.
+# Overview
+
+This project demonstrates the creation of a language translator web application using HTML, CSS, JavaScript, and Azure services.
+The application allows users to input text in one language and obtain a translation into another language.
+It leverages Azure services to perform the actual translation.
+
+# Technologies Used
+
+HTML: For the structure of the web page.
+CSS: For styling and layout.
+JavaScript: For client-side logic and interactions.
+Azure Services: To provide translation capabilities.
+Azure Virtual Machine (VM): To host the server-side code.
+Domain Name System (DNS): To associate a domain name with the VM's IP address.
 
 # Prerequisites
-Before you begin, ensure you have met the following requirements:
 
-Python 3.x installed on your system.
+Before setting up the project, ensure you have the following:
+An Azure account: You'll need an Azure account to create and manage Azure services.
+An Azure Virtual Machine: Set up an Azure VM to host the server-side code for your application.
+A registered domain: Register a domain name transapp.southindia.cloudapp.azure.com with a domain registrar and configure the DNS settings to point to your Azure VM's IP address.
 
-Django framework installed. You can install it using pip:
+# Setup Instructions
 
-** pip install django
+# Front-end (HTML, CSS, JavaScript)
 
-Azure account with necessary resources provisioned (Virtual Network, Key Vault, Blob Storage, etc.).
+Place your HTML, CSS, and JavaScript files in a directory on a web server or hosting service. You can use any web hosting service for this purpose.
+Ensure you have a form for users to input text to be translated and a display area for the translated text.
+In your JavaScript code, use the Azure Translator API to send translation requests to your Azure server.
 
-# lone the repository:
+# Back-end (Azure VM)
 
-** git clone <repository-url>
+Set up an Azure Virtual Machine (VM) with your preferred operating system (e.g., Ubuntu, Windows).
+Install a web server (e.g., IIS) and configure it to serve the back-end code.
 
-Install project dependencies:
+# DNS Configuration
 
-** cd translatorApp
-
-** pip install -r requirements.txt
-
-Configure Azure services credentials and endpoints in the Django settings file (settings.py).
-Run the Django development server:
-
-** python manage.py runserver
-Access the application at http://localhost:8000 in your web browser.
-
-
-# Configuration
-AZURE_STORAGE_CONNECTION_STRING: Connection string for Azure Blob Storage.
-AZURE_KEY_VAULT_URL: URL of the Azure Key Vault.In Python Module
-
+Configure your DNS settings for your registered domain name to point to the IP address of your Azure VM.
+Set up SSL certificates for your domain to enable HTTPS for secure communication.
 
 # Usage
-Access the Translator App at the provided URL.
-Enter the text you want to translate and select the source and target languages.
-Click the "Translate" button to view the translated text.
+
+Visit your website using your registered domain (transapp.southindia.cloudapp.azure.com).
+Enter text in the source language and select the target language.
+Click the translate button to send the translation request to your Azure server.
+Display the translation result on the web page.
 
 
-# Configure Azure servies 
+# Demo Video
+https://drive.google.com/file/d/1WmoDvkxZhlHONLw7fPc_P_ZlA5wx8Ji4/view?usp=sharing
 
-# Create Resource Group "TranslatorApp"
+# Demo Images
 
-# 1.Sign in to Azure Portal:
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
 
-Go to Azure Portal and sign in with your Azure account credentials.
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/5144920c-880b-495c-9fda-5ff19b349e5a)
 
-# 2.Create a Resource Group:
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/85bdd839-e94e-4ed0-b930-6caa9e56d8ec)
 
-Click on the "Create a resource" button (+).
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/660df4fe-d858-48c9-9977-49af467afbd0)
 
-Select "Resource group".
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/149b2a94-ec12-467c-a7f7-6de68c2f7a34)
 
-Subscription: Choose your Azure subscription.
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/17be8eb8-d7be-420b-9861-bb9fe0225b00)
 
-Resource group: Enter the name "TranslatorApp".
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/d93e380e-a8dd-49f6-a4c7-97e3e0628533)
 
-Region: Choose the appropriate region.
-
-Click on "Review + create" and then "Create" to create the resource group.
-
-
-# Create Virtual Network (VNet) in "TranslatorApp"
-In the Resource Group "TranslatorApp":
-
-Click on the "Add" button.
-
-Search for "Virtual Network" and select it from the results.
-
-# 3. Configure Virtual Network:
-
-Name: Enter a unique name for your VNet.
-
-Address space: Enter the address space for your VNet in CIDR notation (e.g., 10.0.0.0/16).
-
-Subnet: Add a subnet within your VNet if needed.
-
-Configure other settings based on your requirements.
-
-Click on "Review + create" and then "Create" to create the Virtual Network.
-
-# 4.Create Web App and Integrate with VNet
-
-In the Resource Group "TranslatorApp":
-
-Click on the "Add" button.
-
-Search for "Web App" and select it from the results.
-
-# 5.Configure Web App:
-
-App name: Enter a unique name for your Web App.
-
-Publish: Choose your publishing method (code, container, etc.).
-
-Operating System: Choose the appropriate OS.
-
-Region: Choose the same region as your VNet for optimal performance.
-
-Configure other settings based on your requirements.
-
-Click on "Next: Networking".
-
-# 6.Networking Settings:
-Connect to virtual network: Select "Add VNet connection".
-
-Choose a virtual network: Select the VNet you created earlier.
-
-Configure other networking settings as needed.
-
-Click on "Next: Monitoring" and complete the setup.
-
-# 7.Access the Web App
-
-Once the deployment is complete, you can access your Web App at the provided URL. Ensure that your Web App is integrated with the VNet for secure communication and optimal performance.
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/e8e71fc3-e36e-4546-8c06-d623c91de894)
 
 
 
-# demo Video  Url
 
-# Demo Url project
+
+
+
+
+
