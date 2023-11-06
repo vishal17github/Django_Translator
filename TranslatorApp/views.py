@@ -38,9 +38,9 @@ def signup(request):
             json.dump(user_data, json_file)
             json_file.write('\n')
             
-        account_name = 'demoprojectazure'
-        account_key = 'zCqa9umdyKIfOR0/o1tFdA0vR6RhnW1aU8ibPmjaUY6AIVoTLJLCV4Uu6wAqpseVI6y9YXF1Nfr2+AStj1D/1A=='
-        container_name = 'azureuser'
+        account_name = 'transaccount'
+        account_key = 'zwNv8Gz9vf+IpAsnUNfyCUzJekl55HsW4E+YNUlhix/5BwBHidzRGVt+xctzNXBLUt+1VzjVMt15+AStKmxEiQ=='
+        container_name = 'blobcontainer'
         local_file_path = 'C:\\Users\\magic\\OneDrive\\Desktop\\Batch3\\Translator\\user_data.json'
         
         # Generate a unique blob name using uuid
