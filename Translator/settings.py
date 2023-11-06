@@ -24,8 +24,8 @@ SECRET_KEY = 'django-insecure-w7v&7wy*70pq&2c@=az(%o)kum0@kxik13v(i*)7k9*_=uru@h
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = ['transwebapp.azurewebsites.net']
 
-ALLOWED_HOSTS = ['https://transwebapp.azurewebsites.net/']
 
 
 # Application definition
