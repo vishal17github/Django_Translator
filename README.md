@@ -13,7 +13,7 @@ This project demonstrates the creation of a language translator web application 
 - **Azure Services:** To provide translation capabilities.
 - **Azure Virtual Network (VNet):** For secure network connectivity and isolation.
 - **Azure Virtual Machine (VM):** To host the server-side code.
-- **Domain Name System (DNS):** To associate a domain name with the VM's IP address.
+- **Domain Name System (DNS):** To associate a domain name with the VM's IP address custom DNS.
 - **Azure Monitor:** For monitoring and analyzing application performance.
 - **Azure Backup:** To safeguard data with automated backups.
 - **Azure Site Recovery:** For disaster recovery and business continuity.
