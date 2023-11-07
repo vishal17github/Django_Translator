@@ -66,6 +66,11 @@ Configure your DNS settings for your registered domain name to point to the IP a
 4. Display the translation result on the web page.
 
 
+## Demo Url : http://transapp.eastus.cloudapp.azure.com/
+## Demo Video Url : https://www.youtube.com/watch?v=6blx23Uqdvk
+## Demo Images :
+
+
 
 
 
