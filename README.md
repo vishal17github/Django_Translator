@@ -74,6 +74,8 @@ Configure your DNS settings for your registered domain name to point to the IP a
 ![2](https://github.com/vishal17github/Django_Translator/assets/145033609/f6979b2d-1897-49cc-bbae-87ce3b228c9e)
 ![3](https://github.com/vishal17github/Django_Translator/assets/145033609/13d3041b-6603-4072-b050-3c000ecf5c08)
 ![4](https://github.com/vishal17github/Django_Translator/assets/145033609/0f7b920d-98e5-433c-92ba-d44370242f7b)
+![5](https://github.com/vishal17github/Django_Translator/assets/145033609/3087b563-798a-4b88-85ad-7301cee5877c)
+
 
 
 
