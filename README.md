@@ -70,7 +70,8 @@ Configure your DNS settings for your registered domain name to point to the IP a
 ## Demo Video Url : https://www.youtube.com/watch?v=6blx23Uqdvk
 ## Demo Images :
 ![1](https://github.com/vishal17github/Django_Translator/assets/145033609/cf549dac-ee58-40ae-a963-3bdb03b3d3de)
-![2](https://github.com/vishal17github/Django_Translator/assets/145033609/49477d0a-c029-43dc-b1fe-d
+![2](https://github.com/vishal17github/Django_Translator/assets/145033609/49477d0a-c029-43dc-b1fe-d)
+
 ![3](https://github.com/vishal17github/Django_Translator/assets/145033609/a51d001f-f867-4239-a411-e7a7d6de25d2)
 ![4](https://github.com/vishal17github/Django_Translator/assets/145033609/770cdc08-d6fa-4ea1-b269-01ee47f48fd9)
 5e30e2ff750)
