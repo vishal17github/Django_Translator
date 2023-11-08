@@ -69,12 +69,11 @@ Configure your DNS settings for your registered domain name to point to the IP a
 ## Demo Url : http://transapp.eastus.cloudapp.azure.com/
 ## Demo Video Url : https://www.youtube.com/watch?v=6blx23Uqdvk
 ## Demo Images :
-![1](https://github.com/vishal17github/Django_Translator/assets/145033609/cf549dac-ee58-40ae-a963-3bdb03b3d3de)
-![2](https://github.com/vishal17github/Django_Translator/assets/145033609/49477d0a-c029-43dc-b1fe-d)
 
-![3](https://github.com/vishal17github/Django_Translator/assets/145033609/a51d001f-f867-4239-a411-e7a7d6de25d2)
-![4](https://github.com/vishal17github/Django_Translator/assets/145033609/770cdc08-d6fa-4ea1-b269-01ee47f48fd9)
-5e30e2ff750)
+![1](https://github.com/vishal17github/Django_Translator/assets/145033609/19b01437-3f6f-4236-b98f-f0dfc0dda8ec)
+![2](https://github.com/vishal17github/Django_Translator/assets/145033609/f6979b2d-1897-49cc-bbae-87ce3b228c9e)
+![3](https://github.com/vishal17github/Django_Translator/assets/145033609/13d3041b-6603-4072-b050-3c000ecf5c08)
+![4](https://github.com/vishal17github/Django_Translator/assets/145033609/0f7b920d-98e5-433c-92ba-d44370242f7b)
 
 
 
